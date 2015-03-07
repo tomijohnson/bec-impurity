@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- saved from url=(0052)http://www.theophys.kth.se/mathphys/schrodinger.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Schrodinger</title>
+<style type="text/css"></style></head>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#6D00A4">
+
+<table align="center" width="550" border="0" cellspacing="4" cellpadding="4">
+<tbody><tr><td align="LEFT">
+<p align="CENTER">
+<img align="MIDDLE" src="./Schrodinger_files/fys.gif" alt="[KTH Fysik]" width="468" height="68" border="0"> </p>
+
+<h1 align="center">Quantum Mechanics with MATLAB</h1>
+</td></tr>
+<tr><td align="LEFT">
+
+
+
+
+SCHRODINGER is a set of MATLAB files which provide moderately accurate 
+numerical solutions of a number of standard problems familiar from many 
+introductory texts on Quantum Mechanics.   They give the student an
+interactive access to the solutions with graphical display of the 
+results.
+<p>
+This is not a substitute for a textbook, it is a device for solving 
+standard types of problems with a speed which will allow an interactive 
+study of the effect of changes of the parameters.   The algorithms are
+chosen for simplicity and speed, not optimal accuracy or stability. 
+Calculations using matrix arguments, one of the key features of MATLAB, is
+used wherever possible for maximal speed. 
+</p><p>
+There is a short manual in postscript form which gives some comments on
+the quantum mechanical problems and on the algorithms, and a list of
+references. The documentation for each problem is rudimentary, but I 
+have tried to give literature references when this is possible. I have
+also tried to set defaults for most variable parameters. In other places
+the user has to guess  on the basis the uncertainty relation and the
+spectrum of a square well. There is also some help in the M-files.
+</p><p>
+The correctness and accuracy of the algorithms defined in the M-files
+should not be taken for granted. You are welcome to improve on them,
+especially if you will share the results.
+</p><p>
+The files should run on any computer with the MATLAB 6 program installed
+and  a graphical interface. Almost everything should be compatible with
+MATLAB 4.2.  SCHRODINGER has been tested on a PowerMac 7600/120
+and on a PC running Linux.
+</p><p>
+The speed of solution evidently depends on the platform, but it can be 
+adapted to your computer through the choice of the number of lattice
+points and basis functions, by editing the M-files if necessary. The time
+needed for most of the solutions are intended  to be at most a few tens of
+seconds on a PowerMac or PC.
+</p><p>
+You can start the session by executing the file <b>start.m</b>, then making
+choices pressing buttons, in menus or in the command window. Short
+descriptions of the M-files are given in the file 
+<a href="http://www.theophys.kth.se/mathphys/SCH/Contents.html"><b>Contents</b></a>. 
+You can  also use the help function.
+</p><p>
+</p><h3 align="left">Downloads</h3>
+<ul>
+<li><a href="http://www.theophys.kth.se/mathphys/SCH/schrod7.ps.gz">Manual</a> as a gzipped postscript file
+(350 kB).
+
+</li><li><a href="http://www.theophys.kth.se/mathphys/SCH/schrod6.tar.gz">schrodinger</a> as a tarred and gzipped
+directory
+</li><li><a href="http://www.theophys.kth.se/mathphys/SCH/schrod6.zip">schrodinger</a> as a zip archive 
+</li></ul>
+The present version was uploaded 1st August 1999. 
+<p>
+
+If you have trouble downloading the files, other questions, corrections, improvements or objections, 
+mail me at <br>
+<img src="./Schrodinger_files/glimail1.gif" width="130">
+</p><hr>
+
+
+A sample output from the <b>schrodinger</b> program.
+
+<img width="576" height="432" align="LEFT" alt="[graphics]" src="./Schrodinger_files/pic3.gif">
+
+<br clear="all">
+
+<hr>
+<b>Related material from the Web</b><br>
+<ul>
+<li>
+<a href="http://www.kfunigraz.ac.at/imawww/vqm/">Visual Quantum
+Mechanics - Uni Graz</a>
+</li><li><a href="http://phys.educ.ksu.edu/index.html">Visual Quantum 
+Mechanics - Kansas State U</a><br>
+</li></ul>
+<hr>
+
+<img width="205" height="270" align="LEFT" alt="[portrait]" src="./Schrodinger_files/schro.gif">
+
+<h2 align="LEFT">A Portrait of Erwin Schrödinger</h2>
+<ul>
+<li><a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Schrodinger.html">Biographical details</a>
+ from MacTutor History of Mathematics archive
+ at the University of St Andrews.
+</li><li><a href="http://www.nobel.se/laureates/physics-1933-1-bio.html">
+Another biography</a> from the Nobel Foundation. 
+</li></ul>
+Other founding fathers of quantum theory are
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Planck.html">
+Max Planck</a>,
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Bohr_Niels.html">
+Niels Bohr</a>,
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Sommerfeld.html">
+Arnold Sommerfeld</a>,
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Broglie.html">
+Louis de Broglie</a>, 
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Heisenberg.html">
+Werner Heisenberg</a>, 
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Born.html">
+Max Born</a>, 
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Dirac.html">
+Paul Dirac</a> and 
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Pauli.html">
+Wolfgang Pauli</a>. <p> 
+More bibliographic info from the history of quantum physics can be found in the 
+short overview 
+<a href="http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/The_Quantum_age_begins.html">
+<b>The quantum age begins</b></a> from the MacTutor archive.
+
+
+
+<br clear="all">
+</p><hr>
+
+<a href="http://mathphys.physics.kth.se/">
+<img src="./Schrodinger_files/upp.gif" border="0" width="25" height="20" alt="UP">
+</a> 
+<a href="http://www.kth.se/">
+<img src="./Schrodinger_files/kthhem1.gif" border="0" width="25" height="20" alt="KTH"></a>
+&nbsp;
+<img src="./Schrodinger_files/glimail1.gif" width="130">
+<br> Jan 18,  2004 
+
+
+</td></tr></tbody></table>
+
+
+</body></html>

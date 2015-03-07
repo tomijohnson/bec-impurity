@@ -1,0 +1,1565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0052)http://www.physicsforums.com/showthread.php?t=562342 -->
+<html dir="ltr" lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+<meta name="description" content=" Finite-Difference Solutions of Radial Equations: Handling the Origin for D &gt; 1? in Differential Equations is being discussed at Physics Forums">
+
+
+
+
+
+<meta name="viewport" content="width = 1000">
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.7 CSS
+* Style: 'PF NewSkin'; Style ID: 14
+*/
+@import url("http://physicsforums.bernhardtmediall.netdna-cdn.com/clientscript/vbulletin_css/style-7068c29c-00014.css");
+</style>
+<link rel="stylesheet" type="text/css" href="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/vbulletin_important.css">
+
+
+<!-- / CSS Stylesheet -->
+
+<link rel="shortcut icon" href="http://physicsforums.bernhardtmediall.netdna-cdn.com/favicon.ico" type="image/x-icon">
+
+<link href="https://plus.google.com/+physicsforum" rel="publisher">
+
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/beacon.js"></script><script type="text/javascript" async="" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/vglnk.js"></script><script type="text/javascript" async="" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/ga.js"></script><script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/yahoo-dom-event.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/connection-min.js"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "images/physicsforums/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/vbulletin_global.js"></script>
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/vbulletin_menu.js"></script>
+
+
+	<link rel="alternate" type="application/rss+xml" title="Physics Forums RSS Feed" href="http://www.physicsforums.com/external.php?type=RSS2">
+	
+		<link rel="alternate" type="application/rss+xml" title="Physics Forums - Differential Equations - RSS Feed" href="http://www.physicsforums.com/external.php?type=RSS2&forumids=74">
+	
+
+
+
+<link rel="canonical" href="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 .htm">
+
+
+
+
+
+
+	<title>Finite-Difference Solutions of Radial Equations: Handling the Origin for D &gt; 1?</title>
+	<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/vbulletin_post_loader.js"></script>
+	<style type="text/css" id="vbulletin_showthread_css">
+	<!--
+	
+	#tag_edit_list { list-style:none; margin:0px; padding:0px; }
+	#tag_edit_list li { float:left; display:block; width:200px; }
+	#tag_edit_list li.mine { font-weight:bold; }
+	
+	#links div { white-space: nowrap; }
+	#links img { vertical-align: middle; }
+	-->
+	</style>
+
+        <meta property="og:site_name" content="Physics Forums">
+	<meta property="og:image" content="http://physicsforums.bernhardtmediall.netdna-cdn.com/images/PhysicsForum_symbol.png">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://www.physicsforums.com/showthread.php?t=562342">
+	<meta property="og:title" content="Finite-Difference Solutions of Radial Equations: Handling the Origin for D &gt; 1?">
+        <meta property="og:description" content=" Finite-Difference Solutions of Radial Equations: Handling the Origin for D &gt; 1? in Differential Equations is being discussed at Physics Forums">
+        <meta property="article:author" content="http://www.physicsforums.com/member.php?u=295261">
+        <meta property="article:section" content="Differential Equations">
+
+<link rel="stylesheet" type="text/css" href="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/widget005.old.css" media="all"><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0 !important; padding: 0 !important; margin: 0 !important; vertical-align: 0 !important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap ! important}
+.MathJax img {display: inline ! important; float: none ! important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block; overflow: hidden; width: 1px; height: 60ex}
+.MathJax .MathJax_EmBox {display: block; overflow: hidden; width: 1px; height: 60em}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Main; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype'); font-weight: bold}
+@font-face {font-family: MathJax_Main; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Math; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Caligraphic; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('http://cdn.mathjax.org/mathjax/2.2-latest/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body onload=""><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+<a name="top"></a>
+<div id="header">
+<div class="container">
+<div class="right user-info">
+
+<!-- login form --><div style="margin-top:10px;">
+		<form action="http://www.physicsforums.com/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)" class="login-form">
+		<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/vbulletin_md5.js"></script>
+<input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" onfocus="if (this.value == &#39;User Name&#39;) this.value = &#39;&#39;;">
+			<input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" value="Password" size="10" onfocus="if (this.value == &#39;Password&#39;) this.value = &#39;&#39;;" tabindex="102">
+<label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c">Auto-Login</label>
+			<input type="submit" class="button" value="Log in" tabindex="104" title="Enter your username and password in the boxes provided to login, or click the &#39;register&#39; button to create a profile for yourself." accesskey="s">
+		<input type="hidden" name="s" value="">
+               <input type="hidden" name="cookieuser" value="1">
+		<input type="hidden" name="securitytoken" value="guest">
+		<input type="hidden" name="do" value="login">
+		<input type="hidden" name="vb_login_md5password">
+		<input type="hidden" name="vb_login_md5password_utf">
+		</form></div>
+		<!-- / login form -->
+
+</div>
+<a id="logo" href="http://www.physicsforums.com/"><img src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/PhysicsForumsLogo.png" alt="Physics Forums Logo" width="250" height="45" title="Physics Forums Logo"></a></div>
+</div>
+<div id="navigation"> 
+  <div class="container relative">
+	<ul id="main-navigation">
+
+
+		
+
+		
+			<li><a href="http://www.physicsforums.com/register.php" rel="nofollow" style="background:#80ba3d;border-radius:5px;">Create Free Account</a></li>
+		
+		
+
+
+		
+		
+
+		
+
+		
+
+<!-- login/guest links -->
+
+
+		
+		
+     </ul>
+<div class="search-box">
+
+
+
+
+    <form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
+      <div>
+        <input type="hidden" name="cx" value="partner-pub-6580726045122001:6282512200">
+        <input type="hidden" name="ie" value="UTF-8">
+        <input type="text" value="Search Here" class="bginput" name="q" size="25" onfocus="if(this.value==&#39;Search Here&#39;)this.value=&#39;&#39;;">
+        <input type="image" class="search-button" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/search-button.png" value="" tabindex="1004">
+      </div>
+    </form>
+
+
+
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div id="breadcrumb">
+<div class="container">
+
+
+
+<span class="navbar"><a href="http://www.physicsforums.com/index.php" accesskey="1">Physics Forums</a></span> 
+<div itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" style="display:inline;">
+	&gt; <span class="navbar" itemprop="title"><a href="http://www.physicsforums.com/forumdisplay.php?f=4" itemprop="url">Mathematics</a></span></div>
+
+<div itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" style="display:inline;">
+	&gt; <span class="navbar" itemprop="title"><a href="http://www.physicsforums.com/forumdisplay.php?f=74" itemprop="url">Differential Equations</a></span></div>
+
+
+
+
+
+</div>
+</div>
+<!-- content table -->
+<div class="page">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- NAVBAR POPUP MENUS -->
+
+
+<!-- community link menu -->
+	<!-- / community link menu -->
+
+
+	<!-- community link menu -->
+	<div class="vbmenu_popup" id="sitefeatures_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tbody><tr><td class="thead">Site Features</td></tr>
+		
+
+					<tr><td class="vbmenu_option"><a href="http://www.physicsforums.com/blog.php">Blogs</a></td></tr>
+
+<tr><td class="vbmenu_option"><a href="http://www.physicsforums.com/attach_gallery.php">Image Gallery</a></td></tr>
+		
+		
+		</tbody></table>
+	</div>
+	<!-- / community link menu -->
+	
+
+	
+	<!-- community link menu -->
+	<div class="vbmenu_popup" id="siteinfo_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tbody><tr><td class="thead">PhysicsForums Info</td></tr>
+		
+		
+					<tr><td class="vbmenu_option"><a href="http://www.physicsforums.com/showthread.php?t=414380">Rules &amp; Guidelines</a></td></tr>
+		
+		
+					<tr><td class="vbmenu_option"><a href="http://www.physicsforums.com/showthread.php?t=617567">Frequently Asked Questions</a></td></tr>
+
+<tr><td class="vbmenu_option"><a href="http://www.physicsforums.com/showgroups.php">Forum Staff &amp; Advisors</a></td></tr>
+		
+		
+		</tbody></table>
+	</div>
+	<!-- / community link menu -->
+	
+
+
+
+	<!-- get posts link menu -->
+	<div class="vbmenu_popup" id="getposts_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tbody><tr><td class="thead">Get Posts</td></tr>
+		
+		
+					<tr><td class="vbmenu_option"><a href="http://www.physicsforums.com/search.php?do=getnew">New Posts</a></td></tr>
+		
+		
+					<tr><td class="vbmenu_option"><a href="http://www.physicsforums.com/search.php?do=getdaily">Today's Posts &nbsp;&nbsp;&nbsp;&nbsp;</a></td></tr>
+
+
+
+		
+		
+		</tbody></table>
+	</div>
+	<!-- / get posts link menu -->
+	
+	
+	
+	<!-- header quick search form -->
+	<div class="vbmenu_popup" id="navbar_search_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tbody><tr>
+			<td class="thead">Search Forums</td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="http://www.physicsforums.com/tags.php" rel="nofollow">Tag Search</a></td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="http://www.physicsforums.com/search.php" accesskey="4" rel="nofollow">Advanced Search</a></td>
+		</tr>
+		
+		</tbody></table>
+	</div>
+	<!-- / header quick search form -->
+	
+	
+	
+<!-- / NAVBAR POPUP MENUS -->
+
+<!-- PAGENAV POPUP -->
+	<div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tbody><tr>
+			<td class="thead" nowrap="nowrap">Go to Page...</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+			<form action="http://www.physicsforums.com/index.php" method="get" onsubmit="return this.gotopage()" id="pagenav_form">
+				<input type="text" class="bginput" id="pagenav_itxt" style="font-size:11px" size="4">
+				<input type="button" class="button" id="pagenav_ibtn" value="Go">
+			</form>
+			</td>
+		</tr>
+		</tbody></table>
+	</div>
+<!-- / PAGENAV POPUP -->
+
+
+
+
+
+
+<div style="clear:both;"></div>
+
+
+
+
+
+<a name="poststop" id="poststop"></a>
+
+<!-- controls above postbits -->
+<div style="padding-bottom:15px;clear: both;">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tbody><tr valign="bottom">
+	
+		<td valign="middle" width="13%">
+
+
+
+
+		<a href="http://www.physicsforums.com/register.php" rel="nofollow" class="button-m">Register to reply</a></td><td valign="middle">
+	
+
+
+<h1 style="color:black;"> Finite-Difference Solutions of Radial Equations: Handling the Origin for D &gt; 1?</h1><div class="smallfont" id="tag_list_cell">by lpetrich <br>
+
+Tags: <a href="http://www.physicsforums.com/tags.php?tag=equations">equations</a>, <a href="http://www.physicsforums.com/tags.php?tag=finitedifference">finitedifference</a>, <a href="http://www.physicsforums.com/tags.php?tag=handling">handling</a>, <a href="http://www.physicsforums.com/tags.php?tag=origin">origin</a>, <a href="http://www.physicsforums.com/tags.php?tag=radial">radial</a>, <a href="http://www.physicsforums.com/tags.php?tag=solutions">solutions</a> <img src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/11x11progress.gif" id="tag_form_progress" class="inlineimg" style="display:none" alt=""> 
+
+</div>
+
+
+</td>
+	
+	
+</tr>
+</tbody></table>
+</div>
+<!-- / controls above postbits -->
+
+
+
+<!-- toolbar -->
+
+<table cellpadding="6" cellspacing="0" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tbody><tr>
+	<td width="55%" align="right">
+<span style="text-size:24pt;font-weight:bold;margin-top:5px;margin-right:10px;display: inline-block;">Share this thread: </span>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style" style="float:right;">
+<a class="addthis_button_facebook at300b" title="Facebook" href="http://www.physicsforums.com/showthread.php?t=562342#"><span class=" at300bs at15nc at15t_facebook"><span class="at_a11y">Share on facebook</span></span></a>
+<a class="addthis_button_linkedin at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ra-5230bf356f374ace&source=tbx32-300&lng=en-GB&s=linkedin&url=http%3A%2F%2Fwww.physicsforums.com%2Fshowthread.php%3Ft%3D562342&title=Finite-Difference%20Solutions%20of%20Radial%20Equations%3A%20Handling%20the%20Origin%20for%20D%20%3E%201%3F&ate=AT-ra-5230bf356f374ace/-/-/5408c55215594240/2/52d14362a7c2a15a&frommenu=1&uid=52d14362a7c2a15a&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="LinkedIn"><span class=" at300bs at15nc at15t_linkedin"><span class="at_a11y">Share on linkedin</span></span></a>
+<a class="addthis_button_google_plusone_share at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ra-5230bf356f374ace&source=tbx32-300&lng=en-GB&s=google_plusone_share&url=http%3A%2F%2Fwww.physicsforums.com%2Fshowthread.php%3Ft%3D562342&title=Finite-Difference%20Solutions%20of%20Radial%20Equations%3A%20Handling%20the%20Origin%20for%20D%20%3E%201%3F&ate=AT-ra-5230bf356f374ace/-/-/5408c55215594240/3/52d14362a7c2a15a&frommenu=1&uid=52d14362a7c2a15a&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="Google+"><span class=" at300bs at15nc at15t_google_plusone_share"><span class="at_a11y">Share on google_plusone_share</span></span></a>
+<a class="addthis_button_twitter at300b" title="Tweet" href="http://www.physicsforums.com/showthread.php?t=562342#"><span class=" at300bs at15nc at15t_twitter"><span class="at_a11y">Share on twitter</span></span></a>
+<a class="addthis_button_reddit at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ra-5230bf356f374ace&source=tbx32-300&lng=en-GB&s=reddit&url=http%3A%2F%2Fwww.physicsforums.com%2Fshowthread.php%3Ft%3D562342&title=Finite-Difference%20Solutions%20of%20Radial%20Equations%3A%20Handling%20the%20Origin%20for%20D%20%3E%201%3F&ate=AT-ra-5230bf356f374ace/-/-/5408c55215594240/4/52d14362a7c2a15a&frommenu=1&uid=52d14362a7c2a15a&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="Reddit"><span class=" at300bs at15nc at15t_reddit"><span class="at_a11y">Share on reddit</span></span></a>
+<a class="addthis_button_stumbleupon at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ra-5230bf356f374ace&source=tbx32-300&lng=en-GB&s=stumbleupon&url=http%3A%2F%2Fwww.physicsforums.com%2Fshowthread.php%3Ft%3D562342&title=Finite-Difference%20Solutions%20of%20Radial%20Equations%3A%20Handling%20the%20Origin%20for%20D%20%3E%201%3F&ate=AT-ra-5230bf356f374ace/-/-/5408c55215594240/5/52d14362a7c2a15a&frommenu=1&uid=52d14362a7c2a15a&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="StumbleUpon"><span class=" at300bs at15nc at15t_stumbleupon"><span class="at_a11y">Share on stumbleupon</span></span></a>
+<a class="addthis_button_compact at300m" href="http://www.physicsforums.com/showthread.php?t=562342#"><span class=" at300bs at15nc at15t_compact"><span class="at_a11y">More Sharing Services</span></span></a>
+
+
+<!-- AddThis Button END -->
+		
+	<div class="atclear"></div></div></td>
+
+
+
+	
+	
+	
+	
+
+	
+
+
+</tr>
+</tbody></table>
+
+<!-- / toolbar -->
+
+
+
+<!-- end content table -->
+
+<!-- / end content table -->
+
+
+
+
+
+<div id="posts"><!-- post #3681251 -->
+
+	
+	<div id="edit3681251" style="padding:0px 0px 11px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+
+<div class="post-header"> 
+<table id="post3681251" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+	
+		<td>
+
+<div id="postmenu_3681251" class="username_box">
+				
+				<span class="bigusername"><span class="registered_color">lpetrich</span></span>
+				
+			</div>
+
+
+		</td>
+		<td align="right">
+
+			<div class="postcount">
+
+
+
+#<strong>1</strong>
+
+			</div>
+
+
+<div style="float:right;margin-right:10px;margin-top:2px;">
+			 Dec23-11, 08:41 AM 
+			
+			<!-- / status icon and date --></div>
+
+
+
+
+		</td>
+	
+</tr>
+</tbody></table>
+</div>
+<table class="tborder" cellpadding="9" cellspacing="0" border="0" width="100%" align="center">
+<tbody><tr valign="top">
+
+	
+
+<td class="alt3" width="10%">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="postbit-box">
+P: 530
+</div>
+
+
+</td>
+
+
+	<td class="alt3" colspan="2" id="td_post_3681251" style="border-right: 0px solid #D1D1E1">
+	
+		
+
+
+
+
+
+<div id="ad1" style="margin: 2px; float: left; width: 301px; height: 251px;">
+              <!-- =================== CODE FOR RECTANGLE  300x250 ============== -->
+
+
+<script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- PF InsidePost 300x250 -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6580726045122001" data-ad-slot="3049969336"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+
+
+
+
+
+		<!-- message -->
+		<div id="post_message_3681251">
+			
+			I have a problem that I've been unable to find a simple solution for.<br>
+<br>
+When solving Schroedinger's equation for a central force, the nonradial part of the solution can be found with spherical harmonics, but the radial part is much more difficult.<br>
+<br>
+<span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-1-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-1" style="width: 27.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 19.589em; height: 0px; font-size: 139%;"><span style="position: absolute; clip: rect(2.323em 999.985em 5.075em -0.429em); top: -3.936em; left: 0.003em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: MathJax_Math; font-style: italic;">E<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-4" style="font-family: MathJax_Math; font-style: italic;">&#968;</span><span class="mo" id="MathJax-Span-5" style="font-family: MathJax_Main; padding-left: 0.272em;">=</span><span class="mo" id="MathJax-Span-6" style="font-family: MathJax_Main; padding-left: 0.272em;">&#8722;</span><span class="mfrac" id="MathJax-Span-7" style="padding-left: 0.272em; padding-right: 0.111em;"><span style="display: inline-block; position: relative; width: 1.136em; height: 0px;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.431em -0.429em); top: -2.695em; left: 50%; margin-left: -0.159em;"><span class="mn" id="MathJax-Span-8" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span style="display: inline-block; width: 0px; height: 2.269em;"></span></span><span style="position: absolute; clip: rect(1.621em 999.985em 2.431em -0.429em); top: -1.886em; left: 50%; margin-left: -0.483em;"><span class="mrow" id="MathJax-Span-9"><span class="mn" id="MathJax-Span-10" style="font-size: 70.7%; font-family: MathJax_Main;">2</span><span class="mi" id="MathJax-Span-11" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">m</span></span><span style="display: inline-block; width: 0px; height: 2.269em;"></span></span><span style="position: absolute; clip: rect(0.866em 999.985em 1.244em -0.483em); top: -1.292em; left: 0.003em;"><span style="border-left-width: 1.136em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 1.082em;"></span></span></span></span><span class="mrow" id="MathJax-Span-12" style="padding-left: 0.165em;"><span class="mo" id="MathJax-Span-13" style="vertical-align: 0.003em;"><span style="font-family: MathJax_Size3;">(</span></span><span class="mfrac" id="MathJax-Span-14" style="padding-left: 0.111em; padding-right: 0.111em;"><span style="display: inline-block; position: relative; width: 1.352em; height: 0px;"><span style="position: absolute; clip: rect(1.244em 999.985em 2.377em -0.483em); top: -2.587em; left: 50%; margin-left: -0.591em;"><span class="mrow" id="MathJax-Span-15"><span class="msubsup" id="MathJax-Span-16"><span style="display: inline-block; position: relative; width: 0.758em; height: 0px;"><span style="position: absolute; clip: rect(1.406em 999.985em 2.215em -0.483em); top: -2.048em; left: 0.003em;"><span class="mi" id="MathJax-Span-17" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span><span style="position: absolute; top: -2.21em; left: 0.434em;"><span class="mn" id="MathJax-Span-18" style="font-size: 50%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 1.891em;"></span></span></span></span><span class="mi" id="MathJax-Span-19" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">&#968;</span></span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span><span style="position: absolute; clip: rect(1.352em 999.985em 2.215em -0.483em); top: -1.616em; left: 50%; margin-left: -0.483em;"><span class="mrow" id="MathJax-Span-20"><span class="mi" id="MathJax-Span-21" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="msubsup" id="MathJax-Span-22"><span style="display: inline-block; position: relative; width: 0.65em; height: 0px;"><span style="position: absolute; clip: rect(1.567em 999.985em 2.215em -0.483em); top: -2.048em; left: 0.003em;"><span class="mi" id="MathJax-Span-23" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span><span style="position: absolute; top: -2.102em; left: 0.326em;"><span class="mn" id="MathJax-Span-24" style="font-size: 50%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 1.891em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span><span style="position: absolute; clip: rect(0.866em 999.985em 1.244em -0.483em); top: -1.292em; left: 0.003em;"><span style="border-left-width: 1.352em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 1.082em;"></span></span></span></span><span class="mo" id="MathJax-Span-25" style="font-family: MathJax_Main; padding-left: 0.219em;">+</span><span class="mfrac" id="MathJax-Span-26" style="padding-left: 0.326em; padding-right: 0.111em;"><span style="display: inline-block; position: relative; width: 0.488em; height: 0px;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.431em -0.429em); top: -2.695em; left: 50%; margin-left: -0.159em;"><span class="mn" id="MathJax-Span-27" style="font-size: 70.7%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 2.269em;"></span></span><span style="position: absolute; clip: rect(1.567em 999.985em 2.215em -0.483em); top: -1.724em; left: 50%; margin-left: -0.159em;"><span class="mi" id="MathJax-Span-28" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span><span style="position: absolute; clip: rect(0.866em 999.985em 1.244em -0.483em); top: -1.292em; left: 0.003em;"><span style="border-left-width: 0.488em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 1.082em;"></span></span></span></span><span class="mfrac" id="MathJax-Span-29" style="padding-left: 0.272em; padding-right: 0.111em;"><span style="display: inline-block; position: relative; width: 0.974em; height: 0px;"><span style="position: absolute; clip: rect(1.406em 999.985em 2.377em -0.483em); top: -2.587em; left: 50%; margin-left: -0.429em;"><span class="mrow" id="MathJax-Span-30"><span class="mi" id="MathJax-Span-31" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-32" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">&#968;</span></span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span><span style="position: absolute; clip: rect(1.406em 999.985em 2.215em -0.483em); top: -1.67em; left: 50%; margin-left: -0.321em;"><span class="mrow" id="MathJax-Span-33"><span class="mi" id="MathJax-Span-34" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-35" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span></span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span><span style="position: absolute; clip: rect(0.866em 999.985em 1.244em -0.483em); top: -1.292em; left: 0.003em;"><span style="border-left-width: 0.974em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 1.082em;"></span></span></span></span><span class="mo" id="MathJax-Span-36" style="font-family: MathJax_Main; padding-left: 0.219em;">&#8722;</span><span class="mfrac" id="MathJax-Span-37" style="padding-left: 0.326em; padding-right: 0.111em;"><span style="display: inline-block; position: relative; width: 1.999em; height: 0px;"><span style="position: absolute; clip: rect(1.567em 999.985em 2.593em -0.483em); top: -2.857em; left: 50%; margin-left: -0.915em;"><span class="mrow" id="MathJax-Span-38"><span class="mi" id="MathJax-Span-39" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">l</span><span class="mo" id="MathJax-Span-40" style="font-size: 70.7%; font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-41" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">l</span><span class="mo" id="MathJax-Span-42" style="font-size: 70.7%; font-family: MathJax_Main;">+</span><span class="mn" id="MathJax-Span-43" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span class="mo" id="MathJax-Span-44" style="font-size: 70.7%; font-family: MathJax_Main;">)</span></span><span style="display: inline-block; width: 0px; height: 2.269em;"></span></span><span style="position: absolute; clip: rect(3.294em 999.985em 4.157em -0.483em); top: -3.558em; left: 50%; margin-left: -0.321em;"><span class="msubsup" id="MathJax-Span-45"><span style="display: inline-block; position: relative; width: 0.65em; height: 0px;"><span style="position: absolute; clip: rect(1.567em 999.985em 2.215em -0.483em); top: -2.048em; left: 0.003em;"><span class="mi" id="MathJax-Span-46" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span><span style="position: absolute; top: -2.102em; left: 0.326em;"><span class="mn" id="MathJax-Span-47" style="font-size: 50%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 1.891em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(0.866em 999.985em 1.244em -0.483em); top: -1.292em; left: 0.003em;"><span style="border-left-width: 1.999em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 1.082em;"></span></span></span></span><span class="mi" id="MathJax-Span-48" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.165em;">&#968;</span><span class="mo" id="MathJax-Span-49" style="vertical-align: 0.003em;"><span style="font-family: MathJax_Size3;">)</span></span></span><span class="mo" id="MathJax-Span-50" style="font-family: MathJax_Main; padding-left: 0.219em;">+</span><span class="mi" id="MathJax-Span-51" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.219em;">V<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.165em;"></span></span><span class="mo" id="MathJax-Span-52" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-53" style="font-family: MathJax_Math; font-style: italic;">r</span><span class="mo" id="MathJax-Span-54" style="font-family: MathJax_Main;">)</span><span class="mi" id="MathJax-Span-55" style="font-family: MathJax_Math; font-style: italic;">&#968;</span></span><span style="display: inline-block; width: 0px; height: 3.942em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 3.454em; vertical-align: -1.421em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-1">E\psi = - \frac{1}{2m}\left(\frac{d^2\psi}{dr^2} + \frac{2}{r}\frac{d\psi}{dr} - \frac{l(l+1)}{r^2}\psi\right) + V(r)\psi</script><br>
+<br>
+E = energy, V = potential, m = mass, <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-2-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-56" style="width: 0.974em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.704em; height: 0px; font-size: 139%;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.862em -0.483em); top: -2.479em; left: 0.003em;"><span class="mrow" id="MathJax-Span-57"><span class="mi" id="MathJax-Span-58" style="font-family: MathJax_Math; font-style: italic;">&#968;</span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.429em; vertical-align: -0.371em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-2">\psi</script> is the field variable.<br>
+<br>
+The problem is the coordinate singularity at the origin.<br>
+<br>
+For zero angular momentum <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-3-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-59" style="width: 0.488em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.326em; height: 0px; font-size: 139%;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.647em -0.429em); top: -2.479em; left: 0.003em;"><span class="mrow" id="MathJax-Span-60"><span class="mi" id="MathJax-Span-61" style="font-family: MathJax_Math; font-style: italic;">l</span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.129em; vertical-align: -0.071em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-3">l</script>, one can solve for <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-4-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-62" style="width: 1.621em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.136em; height: 0px; font-size: 139%;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.862em -0.483em); top: -2.479em; left: 0.003em;"><span class="mrow" id="MathJax-Span-63"><span class="mi" id="MathJax-Span-64" style="font-family: MathJax_Math; font-style: italic;">r</span><span class="mi" id="MathJax-Span-65" style="font-family: MathJax_Math; font-style: italic;">&#968;</span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.429em; vertical-align: -0.371em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-4">r\psi</script>, and one gets an equation without a coordinate singularity. One can easily finite-difference it and then solve it as an eigensystem.<br>
+<br>
+But for nonzero angular momentum, that coordinate singularity cannot be eliminated by this means. Is there some alternative way of handling that coordinate singularity in this case?
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+
+
+
+
+
+
+	</td>
+
+<td class="alt3" width="10%">
+
+
+</td>
+
+
+
+</tr>
+<tr>
+	<td class="alt2" style="border: 0px solid #D1D1E1; border-top: 0px;">
+
+		
+		
+	</td>
+
+	
+	<td class="alt1" style="border: 0px solid #D1D1E1; border-left: 0px; border-top: 0px" colspan="3">
+	
+		<!-- controls -->
+
+<div style="float:left;">
+
+
+		
+
+
+
+
+</div>
+
+
+
+<div style="float:right;">
+		
+
+		
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+			
+		
+		
+
+		<!-- / controls -->
+</div>
+
+
+
+	</td>
+</tr>
+</tbody></table>
+
+
+
+
+
+
+
+
+
+    <div style="padding:6px 0px 0px 0px;margin-top:2px;">
+
+    <table class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+<td class="alt3" width="175px" align="center"><img src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/physorg.png" alt="Phys.Org News Partner" title="Phys.Org News Partner"></td>
+        <td class="alt3" align="left">
+        
+<a href="http://phys.org/" target="_blank">Science news</a> on Phys.org<br> 
+• <a href="http://phys.org/news328889975.html" rel="nofollow" target="_blank">Study links polar vortex chills to melting sea ice</a><br>• <a href="http://phys.org/news328887941.html" rel="nofollow" target="_blank">Lab unveil new nano-sized synthetic scaffolding technique</a><br>• <a href="http://phys.org/news328887855.html" rel="nofollow" target="_blank">Cool calculations for cold atoms: New theory of universal three-body encounters</a><br>
+
+        </td>
+    </tr>
+    </tbody></table>
+
+    </div>
+
+
+
+	</div>
+	
+
+<!-- / post #3681251 --><!-- post #3681544 -->
+
+	
+	<div id="edit3681544" style="padding:0px 0px 11px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+
+<div class="post-header"> 
+<table id="post3681544" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+	
+		<td>
+
+<div id="postmenu_3681544" class="username_box">
+				
+				<span class="bigusername"><span class="registered_color">bigfooted</span></span>
+				
+			</div>
+
+
+		</td>
+		<td align="right">
+
+			<div class="postcount">
+
+
+
+#<strong>2</strong>
+
+			</div>
+
+
+<div style="float:right;margin-right:10px;margin-top:2px;">
+			 Dec23-11, 01:06 PM 
+			
+			<!-- / status icon and date --></div>
+
+
+
+
+		</td>
+	
+</tr>
+</tbody></table>
+</div>
+<table class="tborder" cellpadding="9" cellspacing="0" border="0" width="100%" align="center">
+<tbody><tr valign="top">
+
+	
+
+<td class="alt3" width="10%">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="postbit-box">
+P: 293
+</div>
+
+
+</td>
+
+
+	<td class="alt3" colspan="2" id="td_post_3681544" style="border-right: 0px solid #D1D1E1">
+	
+		
+
+
+
+
+
+
+
+
+
+		<!-- message -->
+		<div id="post_message_3681544">
+			
+			The usual way is to impose a boundary condition at r=0. If it is cylindrically or spherically symmetric, then at r=0 you can impose a symmetry boundary condition, like putting the gradient at r=0 to 0. <br>
+In a finite difference scheme, the unknowns at r=0 can now be eliminated and expressed in terms of the unknowns at the neighboring nodes.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+
+
+
+
+
+
+	</td>
+
+
+
+</tr>
+<tr>
+	<td class="alt2" style="border: 0px solid #D1D1E1; border-top: 0px;">
+
+		
+		
+	</td>
+
+	
+	<td class="alt1" style="border: 0px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+
+<div style="float:left;">
+
+
+		
+
+
+
+
+</div>
+
+
+
+<div style="float:right;">
+		
+
+		
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+			
+		
+		
+
+		<!-- / controls -->
+</div>
+
+
+
+	</td>
+</tr>
+</tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #3681544 --><!-- post #3681592 -->
+
+	
+	<div id="edit3681592" style="padding:0px 0px 11px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+
+<div class="post-header"> 
+<table id="post3681592" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+	
+		<td>
+
+<div id="postmenu_3681592" class="username_box">
+				
+				<span class="bigusername"><span class="registered_color">lpetrich</span></span>
+				
+			</div>
+
+
+		</td>
+		<td align="right">
+
+			<div class="postcount">
+
+
+
+#<strong>3</strong>
+
+			</div>
+
+
+<div style="float:right;margin-right:10px;margin-top:2px;">
+			 Dec23-11, 01:48 PM 
+			
+			<!-- / status icon and date --></div>
+
+
+
+
+		</td>
+	
+</tr>
+</tbody></table>
+</div>
+<table class="tborder" cellpadding="9" cellspacing="0" border="0" width="100%" align="center">
+<tbody><tr valign="top">
+
+	
+
+<td class="alt3" width="10%">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="postbit-box">
+P: 530
+</div>
+
+
+</td>
+
+
+	<td class="alt3" colspan="2" id="td_post_3681592" style="border-right: 0px solid #D1D1E1">
+	
+		
+
+
+
+
+
+
+
+
+
+		<!-- message -->
+		<div id="post_message_3681592">
+			
+			That I understand, but the problem is handling behavior like <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-5-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-66" style="width: 1.136em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.812em; height: 0px; font-size: 139%;"><span style="position: absolute; clip: rect(0.003em 999.985em 1.19em -0.483em); top: -1.022em; left: 0.003em;"><span class="mrow" id="MathJax-Span-67"><span class="msubsup" id="MathJax-Span-68"><span style="display: inline-block; position: relative; width: 0.758em; height: 0px;"><span style="position: absolute; clip: rect(1.891em 999.985em 2.647em -0.483em); top: -2.479em; left: 0.003em;"><span class="mi" id="MathJax-Span-69" style="font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; top: -2.425em; left: 0.488em;"><span class="mi" id="MathJax-Span-70" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">l</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 1.028em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.354em; vertical-align: -0.071em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-5">r^l</script> near the origin.<br>
+<br>
+I'm now trying a different approach: expanding (psi) as <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-6-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-71" style="width: 19.157em; display: inline-block;"><span style="display: inline-block; position: relative; width: 13.762em; height: 0px; font-size: 139%;"><span style="position: absolute; clip: rect(1.837em 999.985em 3.186em -0.483em); top: -2.749em; left: 0.003em;"><span class="mrow" id="MathJax-Span-72"><span class="mi" id="MathJax-Span-73" style="font-family: MathJax_Math; font-style: italic;">&#968;</span><span class="mo" id="MathJax-Span-74" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-75" style="font-family: MathJax_Math; font-style: italic;">r</span><span class="mo" id="MathJax-Span-76" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-77" style="font-family: MathJax_Main; padding-left: 0.272em;">=</span><span class="munderover" id="MathJax-Span-78" style="padding-left: 0.272em;"><span style="display: inline-block; position: relative; width: 1.513em; height: 0px;"><span style="position: absolute; clip: rect(1.783em 999.985em 3.132em -0.429em); top: -2.695em; left: 0.003em;"><span class="mo" id="MathJax-Span-79" style="font-family: MathJax_Size1; vertical-align: 0.003em;">&#8721;</span><span style="display: inline-block; width: 0px; height: 2.701em;"></span></span><span style="position: absolute; top: -1.778em; left: 1.082em;"><span class="mi" id="MathJax-Span-80" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">k</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span></span></span><span class="msubsup" id="MathJax-Span-81" style="padding-left: 0.165em;"><span style="display: inline-block; position: relative; width: 1.136em; height: 0px;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.862em -0.483em); top: -2.479em; left: 0.003em;"><span class="mi" id="MathJax-Span-82" style="font-family: MathJax_Math; font-style: italic;">&#968;</span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; top: -1.832em; left: 0.704em;"><span class="mi" id="MathJax-Span-83" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">k</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span></span></span><span class="msubsup" id="MathJax-Span-84"><span style="display: inline-block; position: relative; width: 1.19em; height: 0px;"><span style="position: absolute; clip: rect(1.891em 999.985em 2.647em -0.483em); top: -2.479em; left: 0.003em;"><span class="mi" id="MathJax-Span-85" style="font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; top: -2.425em; left: 0.488em;"><span class="mi" id="MathJax-Span-86" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">m</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span></span></span><span class="msubsup" id="MathJax-Span-87"><span style="display: inline-block; position: relative; width: 1.082em; height: 0px;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.647em -0.429em); top: -2.479em; left: 0.003em;"><span class="mi" id="MathJax-Span-88" style="font-family: MathJax_Math; font-style: italic;">J<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.057em;"></span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; top: -1.886em; left: 0.596em;"><span class="mi" id="MathJax-Span-89" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">n</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span></span></span><span class="mo" id="MathJax-Span-90" style="font-family: MathJax_Main;">(</span><span class="msubsup" id="MathJax-Span-91"><span style="display: inline-block; position: relative; width: 1.028em; height: 0px;"><span style="position: absolute; clip: rect(1.891em 999.985em 2.647em -0.429em); top: -2.479em; left: 0.003em;"><span class="mi" id="MathJax-Span-92" style="font-family: MathJax_Math; font-style: italic;">x</span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; top: -1.886em; left: 0.596em;"><span class="mi" id="MathJax-Span-93" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">k</span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span></span></span><span class="mo" id="MathJax-Span-94" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-95" style="font-family: MathJax_Math; font-style: italic;">r</span><span class="texatom" id="MathJax-Span-96"><span class="mrow" id="MathJax-Span-97"><span class="mo" id="MathJax-Span-98" style="font-family: MathJax_Main;">/</span></span></span><span class="msubsup" id="MathJax-Span-99"><span style="display: inline-block; position: relative; width: 1.945em; height: 0px;"><span style="position: absolute; clip: rect(1.891em 999.985em 2.647em -0.483em); top: -2.479em; left: 0.003em;"><span class="mi" id="MathJax-Span-100" style="font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; top: -1.886em; left: 0.488em;"><span class="texatom" id="MathJax-Span-101"><span class="mrow" id="MathJax-Span-102"><span class="mi" id="MathJax-Span-103" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">m</span><span class="mi" id="MathJax-Span-104" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">a</span><span class="mi" id="MathJax-Span-105" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">x</span></span></span><span style="display: inline-block; width: 0px; height: 2.053em;"></span></span></span></span><span class="mo" id="MathJax-Span-106" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-107" style="font-family: MathJax_Main;">)</span></span><span style="display: inline-block; width: 0px; height: 2.754em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.579em; vertical-align: -0.446em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-6">\psi(r) = \sum_k \psi_k r^m J_n(x_k(r/r_{max}))</script><br>
+where n = dim/2 + l - 1<br>
+and m = 1 - dim/2<br>
+The x_k's make the J's zero at r = r<sub>max</sub>.<br>
+<br>
+The Schroedinger kinetic-energy term is automatically handled, but the potential term requires constructing integrals of the potentials multiplied by pairs of the J's.<br>
+<br>
+I've found Mathematica's NIntegrate useful for high-quality integrals, but useless for fast ones, so I've been doing the integrals with the midpoint rule and caching the Bessel-function evaluations for additional speed.<br>
+<br>
+That works for the harmonic oscillator, but fails miserably for the 1/r potential. Any better ideas?
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+
+
+
+<br>
+<script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- PF 2ndPost728x90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6580726045122001" data-ad-slot="1407775282"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+	</td>
+
+
+
+</tr>
+<tr>
+	<td class="alt2" style="border: 0px solid #D1D1E1; border-top: 0px;">
+
+		
+		
+	</td>
+
+	
+	<td class="alt1" style="border: 0px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+
+<div style="float:left;">
+
+
+		
+
+
+
+
+</div>
+
+
+
+<div style="float:right;">
+		
+
+		
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+			
+		
+		
+
+		<!-- / controls -->
+</div>
+
+
+
+	</td>
+</tr>
+</tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #3681592 --><!-- post #3682028 -->
+
+	
+	<div id="edit3682028" style="padding:0px 0px 11px 0px">
+	
+
+
+
+
+<div class="post-header"> 
+<table id="post3682028" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+	
+		<td>
+
+<div id="postmenu_3682028" class="username_box">
+				
+				<span class="bigusername"><span class="mentor_color">Redbelly98</span></span>
+				
+			</div>
+
+
+		</td>
+		<td align="right">
+
+			<div class="postcount">
+
+
+
+#<strong>4</strong>
+
+			</div>
+
+
+<div style="float:right;margin-right:10px;margin-top:2px;">
+			 Dec23-11, 08:32 PM 
+			
+			<!-- / status icon and date --></div>
+
+
+
+
+		</td>
+	
+</tr>
+</tbody></table>
+</div>
+<table class="tborder" cellpadding="9" cellspacing="0" border="0" width="100%" align="center">
+<tbody><tr valign="top">
+
+	
+
+<td class="alt3" width="10%">
+
+
+
+
+<div class="postbit-box-mentor"><span class="psbt">Mentor</span></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<div class="smallfont">
+					<a href="http://www.physicsforums.com/member.php?u=122961"><img style="margin:0px;padding:-2px;border-left: 1px solid #ccc;border-right: 1px solid #ccc;" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/avatar122961_48.gif" width="70" height="68" alt="Redbelly98&#39;s Avatar" border="0" title="Redbelly98&#39;s Avatar"></a>
+				</div>
+			
+
+
+<div class="postbit-box">
+P: 12,071
+</div>
+
+
+</td>
+
+
+	<td class="alt3" colspan="2" id="td_post_3682028" style="border-right: 0px solid #D1D1E1">
+	
+		
+
+
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				
+				<strong>Finite-Difference Solutions of Radial Equations: Handling the Origin for D &gt; 1?</strong>
+
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1">
+			<!-- / icon and title -->
+		
+
+
+
+
+
+
+
+
+		<!-- message -->
+		<div id="post_message_3682028">
+			
+			Assuming the <em>&#968;</em> is sufficiently well-behaved so that d<em>&#968;</em>/d<em>r</em>=0 at the origin, then<br>
+<br>
+<span class="MathJax_Preview"></span><div class="MathJax_Display" role="textbox" aria-readonly="true" style="text-align: left;"><span class="MathJax" id="MathJax-Element-7-Frame"><nobr><span class="math" id="MathJax-Span-108" style="width: 7.665em; display: inline-block; margin-left: 2.029em;"><span style="display: inline-block; position: relative; width: 5.506em; height: 0px; font-size: 139%;"><span style="position: absolute; clip: rect(1.028em 999.985em 3.672em -0.375em); top: -2.749em; left: 0.003em;"><span class="mrow" id="MathJax-Span-109"><span class="mfrac" id="MathJax-Span-110" style="padding-left: 0.111em; padding-right: 0.111em;"><span style="display: inline-block; position: relative; width: 1.298em; height: 0px;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.862em -0.429em); top: -3.181em; left: 50%; margin-left: -0.591em;"><span class="mrow" id="MathJax-Span-111"><span class="mi" id="MathJax-Span-112" style="font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-113" style="font-family: MathJax_Math; font-style: italic;">&#968;</span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; clip: rect(1.621em 999.985em 2.647em -0.429em); top: -1.778em; left: 50%; margin-left: -0.483em;"><span class="mrow" id="MathJax-Span-114"><span class="mi" id="MathJax-Span-115" style="font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-116" style="font-family: MathJax_Math; font-style: italic;">r</span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; clip: rect(0.866em 999.985em 1.244em -0.483em); top: -1.292em; left: 0.003em;"><span style="border-left-width: 1.298em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 1.082em;"></span></span></span></span><span class="mo" id="MathJax-Span-117" style="font-family: MathJax_Main; padding-left: 0.272em;">&#8776;</span><span class="mi" id="MathJax-Span-118" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.272em;">r</span><span class="mfrac" id="MathJax-Span-119" style="padding-left: 0.272em; padding-right: 0.111em;"><span style="display: inline-block; position: relative; width: 1.837em; height: 0px;"><span style="position: absolute; clip: rect(1.406em 999.985em 2.862em -0.429em); top: -3.181em; left: 50%; margin-left: -0.861em;"><span class="mrow" id="MathJax-Span-120"><span class="msubsup" id="MathJax-Span-121"><span style="display: inline-block; position: relative; width: 1.028em; height: 0px;"><span style="position: absolute; clip: rect(1.621em 999.985em 2.647em -0.429em); top: -2.479em; left: 0.003em;"><span class="mi" id="MathJax-Span-122" style="font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; top: -2.695em; left: 0.596em;"><span class="mn" id="MathJax-Span-123" style="font-size: 70.7%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 2.269em;"></span></span></span></span><span class="mi" id="MathJax-Span-124" style="font-family: MathJax_Math; font-style: italic;">&#968;</span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; clip: rect(1.567em 999.985em 2.647em -0.429em); top: -1.724em; left: 50%; margin-left: -0.699em;"><span class="mrow" id="MathJax-Span-125"><span class="mi" id="MathJax-Span-126" style="font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="msubsup" id="MathJax-Span-127"><span style="display: inline-block; position: relative; width: 0.92em; height: 0px;"><span style="position: absolute; clip: rect(1.891em 999.985em 2.647em -0.483em); top: -2.479em; left: 0.003em;"><span class="mi" id="MathJax-Span-128" style="font-family: MathJax_Math; font-style: italic;">r</span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; top: -2.533em; left: 0.488em;"><span class="mn" id="MathJax-Span-129" style="font-size: 70.7%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 2.269em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.485em;"></span></span><span style="position: absolute; clip: rect(0.866em 999.985em 1.244em -0.483em); top: -1.292em; left: 0.003em;"><span style="border-left-width: 1.837em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0.003em;"></span><span style="display: inline-block; width: 0px; height: 1.082em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.754em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 3.379em; vertical-align: -1.121em;"></span></span></nobr></span></div><script type="math/tex; mode=display" id="MathJax-Element-7">\frac{d\psi}{dr} \approx r \frac{d^2 \psi}{dr^2} </script><br>
+<br>
+where the 2nd derivative on the RHS is evaluated at <em>r</em>=0.  Thus you get an <em>r</em> to cancel out the 1/<em>r</em> in the differential equation.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+
+
+
+
+
+<br>
+
+<script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- PF PostBottom 728x90 -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6580726045122001" data-ad-slot="6177811701"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+	</td>
+
+
+
+</tr>
+<tr>
+	<td class="alt2" style="border: 0px solid #D1D1E1; border-top: 0px;">
+
+		
+		
+	</td>
+
+	
+	<td class="alt1" style="border: 0px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+
+<div style="float:left;">
+
+
+		
+
+
+
+
+</div>
+
+
+
+<div style="float:right;">
+		
+
+		
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+			
+		
+		
+
+		<!-- / controls -->
+</div>
+
+
+
+	</td>
+</tr>
+</tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #3682028 --><div id="lastpost"></div></div>
+
+
+<!-- start content table -->
+
+<!-- / start content table -->
+
+<!-- controls below postbits -->
+<br>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:-3px">
+<tbody><tr valign="top">
+	
+		<td class="smallfont"><a href="http://www.physicsforums.com/register.php" rel="nofollow" class="button-m">Register to reply</a>
+</td>
+	
+
+
+	
+</tr>
+</tbody></table>
+<!-- / controls below postbits -->
+
+
+
+
+
+
+
+
+
+
+<!-- lightbox scripts -->
+	<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/vbulletin_lightbox.js"></script>
+	<script type="text/javascript">
+	<!--
+	vBulletin.register_control("vB_Lightbox_Container", "posts", 1);
+	//-->
+	</script>
+<!-- / lightbox scripts -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- popup menu contents -->
+<br>
+
+
+
+<!-- / thread tools menu -->
+
+
+
+<!-- **************************************************** -->
+
+
+
+<!-- **************************************************** -->
+
+
+
+<!-- / popup menu contents -->
+
+
+
+<br>
+
+<table class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<thead>
+	<tr>
+		<td class="forum-header" width="100%" colspan="5">
+			Related Discussions<a name="similarthreads"></a>
+		</td>
+	</tr>
+</thead>
+<tbody id="collapseobj_similarthreads" style="">
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="http://www.physicsforums.com/showthread.php?t=534422" title="1. A Ball is in a frictionles tube that is rotating with a constant angular velocity \omega. The ball is initially...">Radial Co-ordinate of a ball from the origin</a></span>
+	</td>
+	
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">Introductory Physics Homework</span></td>
+	<td class="alt2" align="center"><span class="smallfont">5</span></td>
+	
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="http://www.physicsforums.com/showthread.php?t=522284" title="1. The problem statement, all variables and given/known data 
+ 
+I thought it would be easier to use attachments,  so...">Need help with the Finite Difference equations for derivatives and burger's equation</a></span>
+	</td>
+	
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">Engineering, Comp Sci, &amp; Technology Homework</span></td>
+	<td class="alt2" align="center"><span class="smallfont">0</span></td>
+	
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="http://www.physicsforums.com/showthread.php?t=445219" title="I&#39;m reading a book (Numerical Techniques in Electromagnetics by Sadiku) &amp; just finished the section on finite...">Finite difference method, coupled wave equations, chickens &amp; eggs</a></span>
+	</td>
+	
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">Differential Equations</span></td>
+	<td class="alt2" align="center"><span class="smallfont">0</span></td>
+	
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="http://www.physicsforums.com/showthread.php?t=325430" title="Hi! 
+        I have 2 coupled time and space dependent equations with proper initial and boundary conditions, which I...">Stability conditions for finite difference method to solve coupled equations</a></span>
+	</td>
+	
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">Differential Equations</span></td>
+	<td class="alt2" align="center"><span class="smallfont">0</span></td>
+	
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="http://www.physicsforums.com/showthread.php?t=282686" title="To the moderator: please move this to the section on differential equations if you think it would be better there. 
+...">Nonlinear parabolic equations: finite difference method</a></span>
+	</td>
+	
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">Atomic, Solid State, Comp. Physics</span></td>
+	<td class="alt2" align="center"><span class="smallfont">6</span></td>
+	
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+
+
+
+<!-- /content area table -->
+
+<form action="http://www.physicsforums.com/index.php" method="get" style="clear:left">
+	
+</form>
+
+
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+</div>
+<div id="footer">
+<div class="container">
+<div class="center footer-border">
+<ul id="footer-links">
+<li><a href="http://www.physicsforums.com/showthread.php?t=414380">Terms of Service</a></li>
+<li><a href="http://www.physicsforums.com/showthread.php?t=131804">Privacy</a></li>
+<li><a href="http://www.physicsforums.com/showthread.php?t=617567">About Us</a>
+</li><li><a href="http://www.physicsforums.com/sendmessage.php" accesskey="9">Contact Us</a></li>
+
+
+<li><a href="http://www.physicsforums.com/partners.php">Partners</a></li>
+<li><a href="http://www.physicsforums.com/showthread.php?t=562342#top" onclick="self.scrollTo(0, 0); return false;">Top</a></li>
+<li class="clear block"></li>
+</ul>
+</div>
+
+<div id="footer-copyright">
+Copyright © 2014 Physics Forums | Copyright © 2014, vBulletin Solutions, Inc.
+</div>
+
+<div class="clear"></div>
+</div>
+</div>
+
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/MathJax.js"></script>
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/greg_googleana.js"></script>
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/greg_viglink.js"></script>
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/copyright.js"></script>
+
+
+<script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/addthis_widget.js"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;"><iframe id="_atssh396" title="AddThis utility frame" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/sh171.htm" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px; left: 0px; top: 0px;"></iframe></div><script type="text/javascript" src="./Finite-Difference Solutions of Radial Equations  Handling the Origin for D   1 _files/core153.js"></script>
+
+
+
+<div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Size1, sans-serif;">&#61438;</div></body></html>
